@@ -268,3 +268,14 @@ nav a:hover::after {
 .active {
     color: #38bdf8 !important;
 }
+.image-grid img {
+    max-height: 400px;
+}
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
